@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p>Filter reviews:</p>
+
+<p>Order by rating:</p>
+<select id="rating">
+    <option value="high_first">Highest first</option>
+    <option value="low_first">Lowest first</option>
+</select>
+
+<p>Min rating:</p>
+<select id="min_rating">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+</select>
+
+<p>Order by date:</p>
+<select id="date">
+    <option value="old_first">Old first</option>
+    <option value="new_first">New first</option>
+</select>
+
+<p>Prio by text:</p>
+<select id="prio_text">
+    <option value="true">Yes</option>
+    <option value="false">No</option>
+</select>
+<br>
+<br>
+<br>
+<button type="button" onclick="filter()">Filter</button>
+
+<table id="tabela">
+</table>
+
+
+
+<script src="zadacha.js"></script>
+</body>
+</html>
